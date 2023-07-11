@@ -1,0 +1,1 @@
+!function(){const e=document.getElementById("content"),t=document.createElement("h1");t.textContent="Resturant Homepage",e.appendChild(t)}();
