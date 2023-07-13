@@ -1,3 +1,29 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 .header{
-    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: right;
+    gap: .8vw;
+    align-items: center;
+    align-content: center;
+    background-color: #cbd5e1;
+    height: 5vh
+}
+.header>button{
+    justify-items: right;
+    margin-right: 2vw;
+    width: fit-content;
+    height: 2.5vh;
+
+}
+.header > h2{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    margin-left: 2vw;
 }
